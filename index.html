@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-+ENW/yibaokMnme+vBLnHMphUYxHs34h9lpdbSLuAwGkOKFRl4C34WkjazBtb7eT" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Pacifico|Gavitas+One" rel="stylesheet">
+
+ <!-- Added link to the jQuery Library -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+<script src="assets/javascript/game.js"></script>
+
+<title>The Really Fun Crystal Game</title>
+
+</head>
+<body>
+
+<div class="title jumbotron"><h2>Crystals Collector!</h2>
+</div>
+
+<div class="instructions container">
+<div class="col-md-2">
+<p>Instructions:</p>
+</div>
+<div class="col-md-1"></div>
+<div class="col-md-8">
+<p>You will be given a random target number at the start of the game. There are four</p>
+<p>crystals below.  Click on a crystal to add a specific amount of points to your current</p>
+<p>number. Win a round by matching your current number to the target number. You will lose</p>
+<p>the round if your total score goes above the target number. To win the game, you must</p>
+<p>reach a score of 50 points before your 5 chances are up. For each round you win, you</p>
+<p>earn 10 points, and for each round you lose, you will lose 10 points, AND your chances<p> 
+<p>left to play will decrease. The value of each crystal is hidden from you until you</p>
+<p>click on it. Oh, and each time the game starts, the value of each crystal changes.</p>
+<p>Good Luck!</p>
+</div>
+</div>
+</div>
+
+<div class="crystalbuttons container row">
+<div class="col-md-8">
+<img id="crystalisgreen" src="assets/images/greencrystal.jpg" alt="greencrystal">
+<img id="crystalisblue" src="assets/images/bluecrystal.jpg" alt="bluecrystal">
+<img id="crystalisyellow" src="assets/images/yellowcrystal.jpg" alt="yellowcrystal">
+<img id="crystalispink" src="assets/images/pinkcrystal.jpg" alt="pinkcrystal">
+</div>
+
+<div class="col-md-4">
+<!--randomly selected number for you to guess by computer-->
+<div><h1 class="tnumber">Target Number: <span class="targetnumber"></span></h1>
+</div>
+
+<!--Currentnumber: (#the current number the computer has randomly chosen as the goal for the player)-->
+<div><p>Current Number: <span class="currentnumber"></span></p>
+</div>
+
+<!--Wins: (# of times the user has guessed the letter correctly)--><!--Losses: (# of times the user has failed to guess the letter correctly after exhausting all guesses)-->
+<div id="winslosses">
+<p>Wins: <span class="wins"></span></p>
+<p>Losses: <span class="losses"></span></p>
+<p>Chances Remaining: <span class="chances"></span></p>
+</div>
+
+<div id="crystals">
+</div>
+
+<div id="score">
+<p>Your total score is: <span class="score"></span></p>
+</div>
+</div>
+</div>
+
+
+</body>
+</html>
+

@@ -1,0 +1,67 @@
+body {
+	
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	font-size: 70px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.jumbotron {
+	background: url("../images/backgroundimage.jpg");
+	background-size: 100% auto;
+}
+
+
+
+#crystalisgreen {
+	width: 150px;
+		
+}
+
+#crystalisblue {
+	padding-right: 40px;
+	width: 200px;
+}
+
+#crystalisyellow {
+	padding-right: 40px;
+	width: 200px;
+}
+
+#crystalispink {
+	width: 150px;
+}
+
+.crystalbuttons {
+	padding-bottom: 50px;
+}
+
+p {
+	word-spacing: 7px;
+	line-height: 70%;
+}
+
+.col-md-2 {
+	font-family: 'Pacifico', cursive;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 70px;
+}
+
+.col-md-8 {
+	padding-left: 30px;
+
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+
+}
+
+.tnumber {
+	padding-bottom: 10px;
+}
